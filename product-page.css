@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+
+  background-color: #d01a23;
+  color: white;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.header-contact {
+  display: flex;
+  gap: 6rem;
+}
+
+.header-contact > div {
+  display: flex;
+  white-space: nowrap;
+  gap: 0.6rem;
+}
+
+.phoneno > span,
+.timings > span {
+  transform: translateY(0.3rem);
+}
+
+.social-media-links {
+  padding-right: 3rem;
+}
+
+.social-media-links img {
+  padding-left: 1rem;
+}
+
+.facebook {
+  transform: translateY(-0.3rem);
+}
+
+.logo img {
+  position: absolute;
+  left: 45%;
+  top: -3.5rem;
+  max-width: 200px;
+}
+
+nav {
+  z-index: 1;
+  position: fixed;
+  transform: translateY(61px);
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #d01a23;
+  font-family: "Satisfy", cursive;
+  box-shadow: 0 10px 24px hsla(0, 0%, 0%, 0.05),
+    0 20px 48px hsla(0, 0%, 0%, 0.05), 0 1px 4px hsla(0, 0%, 0%, 0.1);
+}
+
+nav > a {
+  text-decoration: none;
+  color: #d01a23;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+nav > a:hover {
+  cursor: pointer;
+  background-color: #d01a23;
+  color: #ffffff;
+}
+
+nav > a.active {
+  background-color: #d01a23;
+  color: #ffffff;
+}
+
+.product-page-header {
+  text-align: center;
+  color: #d01a23;
+  padding: 13em 0em 1em 5em;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0.5em 0 1em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.product {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 3em;
+  padding: 1em;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 10px 24px hsla(0, 0%, 0%, 0.05),
+    0 20px 48px hsla(0, 0%, 0%, 0.05), 0 1px 4px hsla(0, 0%, 0%, 0.1);
+}
+
+.product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.product img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.product h3 {
+  color: #d01a23;
+  font-size: 1.25em;
+  margin: 0.5em 0;
+}
+
+.product p {
+  margin: 0.5em 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #555;
+}

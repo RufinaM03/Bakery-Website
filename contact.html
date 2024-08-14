@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Sweet Treats - Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-contact">
+        <div class="phoneno">
+          <img src="telephone.svg" />
+          <span>123 456 7890</span>
+        </div>
+        <div class="timings">
+          <img src="time.svg" />
+          <span> Mon - Sat: 8AM - 11PM</span>
+        </div>
+      </div>
+      <div class="social-media-links">
+        <img class="facebook" src="facebook.svg" />
+        <img src="twitter.svg" />
+        <img src="instagram (2).svg" />
+      </div>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product-page.html">Products</a>
+      <div class="logo">
+        <img src="Sweet Treats logo red and transparent bg.png" />
+      </div>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html" class="active">Contact Us</a>
+    </nav>
+    <main>
+      <h2>Contact Us</h2>
+      <form class="contact-form" action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </body>
+</html>
